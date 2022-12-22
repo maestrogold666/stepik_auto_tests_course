@@ -8,4 +8,4 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
-driver = webdriver.Chrome()
+browser = webdriver.Chrome()
