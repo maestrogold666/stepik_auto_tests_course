@@ -9,3 +9,10 @@ from selenium.webdriver.common.by import By
 
 # инициализируем драйвер браузера. После этой команды вы должны увидеть новое открытое окно браузера
 browser = webdriver.Chrome()
+
+# Выставляем явные и не явные ожидания
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+# Скролл до элемента
+from selenium.webdriver.common.action_chains import ActionChains
